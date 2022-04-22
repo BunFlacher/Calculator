@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: #686c5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    width: 400px;
+    height: 500px;
+    background: #eee;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3),
+    inset -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+.output{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    background: #fff;
+    height: 60px;
+    width: 360px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3),
+    inset -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+.number{
+    height: 420px;
+}
+button{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 21px;
+    width: 55px;
+    height: 55px;
+}
